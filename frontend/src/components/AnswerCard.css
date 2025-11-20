@@ -1,0 +1,52 @@
+.answer-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 2rem;
+  border: 2px solid #667eea;
+}
+
+.answer-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 1.25rem 1.5rem;
+}
+
+.answer-title {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.answer-content {
+  padding: 2rem;
+}
+
+.answer-content p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #333;
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .answer-header {
+    padding: 1rem 1.25rem;
+  }
+  
+  .answer-title {
+    font-size: 1.1rem;
+  }
+  
+  .answer-content {
+    padding: 1.5rem;
+  }
+  
+  .answer-content p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+}

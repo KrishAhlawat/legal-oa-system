@@ -1,0 +1,27 @@
+{
+  "name": "rag-legal-qa-backend",
+  "version": "1.0.0",
+  "description": "Backend server for RAG-based Legal QA System",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "rag",
+    "legal",
+    "qa",
+    "tfidf"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "groq-sdk": "^0.36.0",
+    "natural": "^6.10.0",
+    "openai": "^4.20.0"
+  }
+}
