@@ -12,9 +12,8 @@ const TfIdf = natural.TfIdf;
 let tfidf = null;
 let documents = [];
 
-/**
- * Load all documents from the documents folder and build TF-IDF corpus
- */
+
+// Load all documents from the documents folder and build TF-IDF corpus
 export function loadDocuments() {
   const documentsPath = path.join(__dirname, '../documents');
   const files = fs.readdirSync(documentsPath).filter(file => file.endsWith('.txt'));

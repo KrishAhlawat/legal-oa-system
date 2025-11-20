@@ -1,20 +1,19 @@
 .source-card {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 20px;
   overflow: hidden;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: border-color 0.2s;
 }
 
 .source-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-color: #999;
 }
 
 .source-header {
-  background: #f8f9fa;
+  background: #fafafa;
   padding: 1rem 1.5rem;
-  border-bottom: 2px solid #e9ecef;
+  border-bottom: 1px solid #e0e0e0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -22,41 +21,46 @@
 }
 
 .source-number {
-  font-weight: 700;
-  color: #667eea;
-  font-size: 0.95rem;
+  font-family: 'Stack Sans Headline', 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #000;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
 }
 
 .source-filename {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #666;
   font-family: 'Courier New', monospace;
-  background: #e9ecef;
-  padding: 0.25rem 0.75rem;
-  border-radius: 4px;
+  font-weight: 700;
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  padding: 0.25rem 0.625rem;
+  border-radius: 3px;
 }
 
 .source-score {
   margin-left: auto;
-  font-size: 0.85rem;
-  color: #28a745;
+  font-size: 0.8rem;
+  color: #1a1a1a;
   font-weight: 600;
-  background: #d4edda;
-  padding: 0.25rem 0.75rem;
-  border-radius: 4px;
+  background: #f0f0f0;
+  padding: 0.25rem 0.625rem;
+  border-radius: 25px;
 }
 
 .source-content {
-  padding: 1.5rem;
+  padding: 1.25rem 1.5rem;
 }
 
 .source-content p {
-  font-size: 0.95rem;
-  line-height: 1.7;
-  color: #444;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: #333;
   margin: 0;
   white-space: pre-wrap;
   word-wrap: break-word;
+  font-weight: 400;
 }
 
 @media (max-width: 768px) {

@@ -54,7 +54,7 @@ function App() {
     <div className="app">
       <div className="container">
         <header className="header">
-          <h1 className="title">⚖️ Legal QA System</h1>
+          <h1 className="title">Legal QA System</h1>
           <p className="subtitle">Ask legal questions and get AI-powered answers</p>
         </header>
 
